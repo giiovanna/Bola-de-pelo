@@ -1,0 +1,141 @@
+body {
+	font-size:			12px;
+	font-family: 		Helvetica, Arial, sans-serif;
+	margin: 			0px;
+	background-image: 	url("../imagens/background.jpg"); 
+}
+
+label {display:	block;}
+
+input {
+	width:				95%;
+	margin:				0px 0px 10px 0px;
+	border: 			thin solid #DDD;
+}
+
+#logo {
+	position: absolute;
+	left: 10%;
+
+}
+
+#container {
+	margin: 			0 auto;
+	width:				50%;
+	background-color:	#FFF;
+	padding:			0px 10px;
+	border-radius: 		5px;
+	box-shadow: 		0px 0px 5px #888;
+}
+
+#container h1 {color: #9BCD9B;}
+
+.clearfix {clear: both;}
+
+#dadosPessoais  {
+	width: 				45%;
+	padding:			0px;
+	float: 				left;
+}
+
+#dadosPessoais h2 {color: #D2B48C;}
+
+#bordaVertical {
+	width: 				1%;
+	height: 			60%;
+	float: 				left;
+	background-image: 	url("../imagens/pontilhado-vertical.gif");
+	background-repeat: 	repeat-y;
+	margin: 			6%  0% 0% 4%;
+}
+
+#bordaHorizontal {
+	height: 			1%;
+	background-image: 	url("../imagens/pontilhado-horizontal.gif");
+	background-repeat: 	repeat-x;
+	margin-top: -2%;
+}
+
+#dadosAcesso {
+	width: 				45%;
+	float: 				right;
+}
+
+#dadosAcesso h2 {color: #D2B48C;}
+
+#navSuperior {
+	background-color: 	#687;
+	background-image: 	linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+	color: 				#FFF;
+	padding: 			5px 20px;
+	text-align: 		center;
+}
+
+#campoBusca {
+	width: 				300px;
+	border-radius: 		5px;
+	border: 			none;
+	padding: 			3px;
+	color: 				#555;
+}
+
+.retMenor {
+	width:				15%;
+	margin:				0px 10px 10px 0px;
+}
+
+.button {
+	display:			inline-block;
+	background-color: 	#D2B48C;
+	color: 				#555;
+	padding: 			5px 20px;
+	text-decoration: 	none;
+	box-sizing: 		border-box;
+	font-size: 			13px;
+	border: 			none;
+	border-radius:		2px;
+	font-weight:		bold;	
+}
+
+.button:hover {
+    background-image: 	linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+    cursor: 			pointer;
+}
+
+.aviso {
+	width: 				90%;
+	text-align: 		justify;
+	background-color: 	#EEE;
+	padding: 			10px;
+	border-radius: 		5px;
+}
+
+footer {
+	background-color: 	#687;
+	background-image: 	linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+	color: 				#FFF;
+	padding: 			10px 20px;
+	margin-top: 		10px;
+	clear: 				both;
+	font-weight: 		bold;
+	text-align: 		center;
+}
+
+#btn_cadastrar {
+	margin: 2% 0% 2% 43%;
+}
+
+.btn_buscar {
+	border-radius: 		8px;
+}
+
+.icon { 
+	background:url("../imagens/busca.png") left no-repeat;
+}
+
+#controlsUser { margin-left: 70%; }
+
+#controlsFind {
+	float: left;
+	margin: -2% 0% 0% 35%; 
+}

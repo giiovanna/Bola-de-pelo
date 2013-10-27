@@ -1,0 +1,48 @@
+/*MARROM(#D2B48C) VERDE(#98FB98)*/
+
+body {
+	margin: 0px;
+	background-image: url('../imagens/background.jpg');
+	font-family: "Ubuntu", sans-serif;
+}
+
+#logo {
+	float: left;
+	margin-left: 100px;
+}
+
+#menu_busca {
+	background-color:  #2E8B57;
+	height: 50px;
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+#banner img {
+	margin: 0px 0px 0px 400px;
+}
+
+#container {
+	margin: 0px auto;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-netkit-border-radius: 2px;
+	background-color:#98FB98;
+	width: 80%;
+	height: 500px;
+}
+
+footer {
+	clear: 			both;
+}
+
+.thumbnail {
+	float: 			left;
+	width: 			110px;
+	margin: 		5px;
+}
+
+.text_line {
+	clear:			both;
+	margin-bottom:	5px;
+}
